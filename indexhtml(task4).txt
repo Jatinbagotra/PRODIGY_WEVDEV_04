@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <div class="photo">
+                <img src="Profile Photo.jpg" alt="Your Name">
+            </div>
+            <div class="intro">
+                <h1>Hello, I'm Jatin Bagotra</h1>
+                <p>A passionate Web Developer</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>Number Prediction Game</h3>
+                <p>Imagine you’re playing a Number Prediction Game where the range is set from 1 to 100. The computer has selected a secret number. You guess 50, and the game tells you the number is higher. You then guess 75, and the game says it’s lower. Through this process of elimination, you continue guessing until you find the correct number.
+
+                    This simple yet addictive game is a great way to test your guessing skills and logical thinking!</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>Real Estate website</h3>
+                <p>Imagine you're searching for a new home. You visit a real estate website, where you can filter properties based on your budget, preferred neighborhood, and desired features like a garden or a garage. You explore properties through virtual tours and save your favorites. You can also calculate your potential mortgage and connect with a real estate agent to schedule a viewing, all through the website.
+
+                    This real estate website offers everything you need to find, buy, sell, or rent a property in one convenient and user-friendly platform.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jatin Bagotra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
